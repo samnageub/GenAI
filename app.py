@@ -45,7 +45,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-st.title("🧠 DeepSeek Code Companion")
+st.title("🧠 Sam Nageub Local DeepSeek")
 st.caption("🚀 Your AI Pair Programmer with Debugging Superpowers")
 
 # Sidebar configuration
@@ -57,7 +57,7 @@ with st.sidebar:
         index=0
     )
     st.divider()
-    st.markdown("### Sam Nageub Local Model Capabilities")
+    st.markdown("### Local Model Capabilities")
     st.markdown("""
     - 🐍 Python Expert
     - 🐞 Debugging Assistant

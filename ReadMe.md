@@ -1,0 +1,13 @@
+Steps: 
+1- Install Ollama locally https://ollama.com/download/windows
+2- Pip Install the following libraries
+    streamlit
+    langchain_core
+    langchain_community
+    langchain_ollama
+3- Unpack deepseek: Pick desired model per your local machine performance: I picked 1.5b : Run this  command in your terminal where you installed Ollama
+    ollama run deepseek-r1:1.5b
+4- Copy code in app.py in github and customize it if needed
+5- Deploy the app locally by running this command in terminal: 
+    streamlit run app.py
+6- Enjoy DeepSeek in your local machine: http://localhost:8501/
