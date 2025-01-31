@@ -57,7 +57,7 @@ with st.sidebar:
         index=0
     )
     st.divider()
-    st.markdown("### Model Capabilities")
+    st.markdown("### Sam Nageub Local Model Capabilities")
     st.markdown("""
     - 🐍 Python Expert
     - 🐞 Debugging Assistant
