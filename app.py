@@ -86,7 +86,7 @@ system_prompt = SystemMessagePromptTemplate.from_template(
 
 # Session state management
 if "message_log" not in st.session_state:
-    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm DeepSeek. How can I help you code today? 💻"}]
+    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm Sam Nageub Customized DeepSeek. How can I help you code today? 💻"}]
 
 # Chat container
 chat_container = st.container()
