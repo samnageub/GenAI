@@ -1,4 +1,5 @@
 Steps: 
+Added new file for speed hackathon Smart_Traffic_Management_Sam_Nageub.pdf that includes content for speed hackathon.
 1- Install Ollama locally https://ollama.com/download/windows
 2- Pip Install the following libraries
     streamlit
@@ -15,6 +16,6 @@ Steps:
 7- Deploy the rag_deep locally by running this command in terminal: 
     streamlit run rag_deep.py
 8- Enjoy DeepSeek with RAG in your local machine to ask qustions about specfic private documents in your local machine : http://localhost:8501/
-9-added new file for speed hackathon Smart Traffic Management
+9- added new file for speed hackathon Smart_Traffic_Management_Sam_Nageub.pdf that includes content for speed hackathon.
 
 
