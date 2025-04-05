@@ -2,12 +2,16 @@ import streamlit as st
 from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 
+
+
+# Import necessary classes and functions
 from langchain_core.prompts import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
     AIMessagePromptTemplate,
     ChatPromptTemplate
 )
+
 # Custom CSS styling
 st.markdown("""
 <style>
