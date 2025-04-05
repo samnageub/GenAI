@@ -15,5 +15,6 @@ Steps:
 7- Deploy the rag_deep locally by running this command in terminal: 
     streamlit run rag_deep.py
 8- Enjoy DeepSeek with RAG in your local machine to ask qustions about specfic private documents in your local machine : http://localhost:8501/
+9-added new file for speed hackathon Smart Traffic Management
 
 
