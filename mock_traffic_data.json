@@ -1,0 +1,55 @@
+{
+    "Seattle, WA": {
+        "streets": [
+            {
+                "name": "Main St",
+                "vehicle_count": 120,
+                "average_speed": 25,
+                "incidents": ["Minor accident near 3rd Ave"],
+                "pedestrian_activity": "High",
+                "cyclist_activity": "Moderate",
+                "time_of_day": "Peak Hours"
+            },
+            {
+                "name": "Pine St",
+                "vehicle_count": 80,
+                "average_speed": 35,
+                "incidents": [],
+                "pedestrian_activity": "Moderate",
+                "cyclist_activity": "Low",
+                "time_of_day": "Off-Peak Hours"
+            },
+            {
+                "name": "4th Ave",
+                "vehicle_count": 200,
+                "average_speed": 15,
+                "incidents": ["Road closure due to construction"],
+                "pedestrian_activity": "Low",
+                "cyclist_activity": "Low",
+                "time_of_day": "Peak Hours"
+            }
+        ]
+    },
+    "Portland, OR": {
+        "streets": [
+            {
+                "name": "Broadway",
+                "vehicle_count": 150,
+                "average_speed": 20,
+                "incidents": ["Accident near 10th Ave"],
+                "pedestrian_activity": "High",
+                "cyclist_activity": "High",
+                "time_of_day": "Peak Hours"
+            },
+            {
+                "name": "5th Ave",
+                "vehicle_count": 90,
+                "average_speed": 30,
+                "incidents": [],
+                "pedestrian_activity": "Moderate",
+                "cyclist_activity": "Moderate",
+                "time_of_day": "Off-Peak Hours"
+            }
+        ]
+    }
+}
