@@ -1,6 +1,5 @@
-Thank you for providing the code files. I'll create a comprehensive README with all the components and a complete system architecture diagram. Here's the updated version:
 
-# 🤖 Local GenAI Explorer
+# 🤖 GenAI Explorer
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-AI-green?style=for-the-badge)
