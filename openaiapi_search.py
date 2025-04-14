@@ -1,18 +1,25 @@
-
-# Import the OpenAI class from the openai module
+import os
 from openai import OpenAI
-# Create a client
-#https://platform.openai.com/welcome?step=try
-client = OpenAI(
-  api_key="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"
-)
+
+# Retrieve the API key from an environment variable
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("API key not found. Please set the 'OPENAI_API_KEY' environment variable.")
+
+# Create an OpenAI client
+client = OpenAI(api_key=api_key)
+
+# Take user input for the question
+user_question = input("Enter your question: ")
+
 # Create a chat completion
 completion = client.chat.completions.create(
-  model="gpt-4o-mini",
-  store=True,
-  messages=[
-    {"role": "user", "content": "What is 2 + 7?"}
-  ]
+    model="gpt-4o-mini",
+    store=True,
+    messages=[
+        {"role": "user", "content": user_question}
+    ]
 )
+
 # Print the response
-print(completion.choices[0].message);
+print("AI Response:", completion.choices[0].message["content"])
