@@ -8,3 +8,5 @@ mcp
 openia
 gradio
 requests
+azure.identity
+azure.keyvault.secrets
