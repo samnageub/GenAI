@@ -20,7 +20,7 @@ def analyze_traffic_MCP(query):
     return f"## Traffic Signal Adjustment Recommendations\n\n{result}" if result else "No recommendations available."
 
 def analyze_traffic_api_agent(location):
-    api_key = "AIzaSyB05CAgY-S2AqTlmNWJOQ66rEbY5iWJd9A"
+    api_key = "Your_API_Key"
     url = f"https://maps.googleapis.com/maps/api/traffic/json?location={location}&key={api_key}"
     response = requests.get(url)
     if response.status_code == 200:
