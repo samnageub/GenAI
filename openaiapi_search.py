@@ -1,10 +1,19 @@
-import os
+from azure.identity import DefaultAzureCredential
+from azure.keyvault.secrets import SecretClient
 from openai import OpenAI
 
-# Retrieve the API key from an environment variable
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError("API key not found. Please set the 'OPENAI_API_KEY' environment variable.")
+# Azure Key Vault details
+KEY_VAULT_NAME = "kv-weatherstreamingapp"  # Replace with your Azure Key Vault name
+SECRET_NAME = "openaisecret"  # Replace with the name of the secret storing your API key
+KV_URI = f"https://{KEY_VAULT_NAME}.vault.azure.net/"
+
+# Authenticate with Azure Key Vault
+credential = DefaultAzureCredential()
+client = SecretClient(vault_url=KV_URI, credential=credential)
+
+# Retrieve the API key from Azure Key Vault
+retrieved_secret = client.get_secret(SECRET_NAME)
+api_key = retrieved_secret.value
 
 # Create an OpenAI client
 client = OpenAI(api_key=api_key)
