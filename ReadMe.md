@@ -159,7 +159,12 @@ streamlit run app.py
 streamlit run rag_deep.py
 ```
 
-3. **Start Airbnb Search**
+3. **Launch AI Health Coach Agent Assistant**
+```bash
+streamlit run ai_recipe_assistant.py
+```
+
+4. **Start Airbnb Search Agent Assistant**
 ```bash
 python airbnb_search.py
 ```
