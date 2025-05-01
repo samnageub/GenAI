@@ -82,7 +82,7 @@ sequenceDiagram
 
 ## Features
 - 🤖 Local DeepSeek model integration (1.5b and 3b variants)
-- 📚 RAG implementation with PDF processing
+- 📚 RAG implementation with AI Health coach assistant Agent for PDF processing to analyze images and and documents and provide recommendation 
 - 🏠 Airbnb booking assistant with MCP server
 - 🔄 OpenAI API integration
 - 💅 Custom-styled UI interfaces
