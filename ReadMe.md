@@ -108,7 +108,15 @@ DOCUMENT_VECTOR_DB = InMemoryVectorStore(EMBEDDING_MODEL)
 LANGUAGE_MODEL = OllamaLLM(model="deepseek-r1:1.5b")
 ```
 
-### 3. Airbnb Search (`airbnb_search.py`)
+### 3. AI Health Coach Agent RAG Implementation (`Ai_recipe_assistant.py`)
+```python
+# Core components
+EMBEDDING_MODEL = OllamaEmbeddings(model="deepseek-r1:1.5b")
+DOCUMENT_VECTOR_DB = InMemoryVectorStore(EMBEDDING_MODEL)
+LANGUAGE_MODEL = OllamaLLM(model="deepseek-r1:1.5b")
+```
+
+### 4. Airbnb Search (`airbnb_search.py`)
 ```python
 agent = Agent(
     instructions="""You help book apartments on Airbnb.""",
